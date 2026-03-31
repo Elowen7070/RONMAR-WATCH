@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>我的 Vercel 站点</title>
+  <title>RONMAR WATCH</title>
   <style>
     * {
       margin: 0;
@@ -11,45 +11,69 @@
       box-sizing: border-box;
     }
     body {
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #f5f5f5;
-      font-family: system-ui;
-    }
-    .box {
-      text-align: center;
-      padding: 40px;
-      background: white;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    h1 {
-      font-size: 28px;
-      margin-bottom: 16px;
-      color: #333;
-    }
-    p {
-      color: #666;
-      margin-bottom: 20px;
-    }
-    button {
-      padding: 10px 20px;
-      background: #0070f3;
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #0b0b0b;
       color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .logo {
+      font-size: 42px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #f5d390;
+    }
+    .title {
+      font-size: 22px;
+      margin-bottom: 40px;
+      opacity: 0.9;
+    }
+    .desc {
       font-size: 16px;
+      line-height: 1.8;
+      max-width: 600px;
+      margin: 0 auto 50px;
+      opacity: 0.8;
+    }
+    .btn {
+      display: inline-block;
+      padding: 14px 36px;
+      background: #f5d390;
+      color: #111;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #ffc107;
+      transform: scale(1.05);
+    }
+    .footer {
+      margin-top: 80px;
+      font-size: 14px;
+      opacity: 0.5;
     }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h1>部署成功啦 🎉</h1>
-    <p>这是一个纯 HTML 项目，已可部署到 Vercel</p>
-    <button onclick="alert('部署正常运行！')">点我测试</button>
+  <div class="container">
+    <div class="logo">RONMAR WATCH</div>
+    <div class="title">高端腕表 · 优雅永恒</div>
+    <div class="desc">
+      专注品质腕表，传承时间艺术，每一款腕表都代表经典、品味与匠心。
+      这里是您的专属腕表空间。
+    </div>
+    <a href="#" class="btn">进入官网</a>
+    <div class="footer">
+      © 2025 RONMAR WATCH · All Rights Reserved
+    </div>
   </div>
 </body>
 </html>
