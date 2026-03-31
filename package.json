@@ -1,0 +1,22 @@
+{
+  "name": "luxetime-watch-store",
+  "version": "1.0.0",
+  "description": "Premium watch e-commerce store",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 3000 -o",
+    "build": "echo 'Static site, no build needed'",
+    "deploy": "vercel deploy"
+  },
+  "keywords": [
+    "watch",
+    "ecommerce",
+    "luxury",
+    "timepiece"
+  ],
+  "author": "Luxury Time",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
